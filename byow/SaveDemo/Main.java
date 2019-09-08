@@ -1,6 +1,6 @@
 package byow.SaveDemo;
 
-import edu.princeton.cs.introcs.StdDraw;
+import byow.refer.StdDraw;
 
 import java.io.File;
 import java.io.FileInputStream;

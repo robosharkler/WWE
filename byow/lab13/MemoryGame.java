@@ -1,6 +1,6 @@
 package byow.lab13;
 
-import edu.princeton.cs.introcs.StdDraw;
+import byow.refer.StdDraw;
 
 import java.awt.Color;
 import java.awt.Font;
