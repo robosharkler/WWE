@@ -2,12 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4dbbdd25-310d-4b4e-be8d-b7e32250b22c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/byow/TileEngine/TERenderer.java" beforeDir="false" afterPath="$PROJECT_DIR$/byow/TileEngine/TERenderer.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/byow/lab13/MemoryGame.java" beforeDir="false" afterPath="$PROJECT_DIR$/byow/lab13/MemoryGame.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/byow/yuan/YuanWorldDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/byow/yuan/YuanWorldDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/proj3.iml" beforeDir="false" afterPath="$PROJECT_DIR$/proj3.iml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -171,7 +167,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1567970692261</updated>
-      <workItem from="1569380489642" duration="5593000" />
+      <workItem from="1569380489642" duration="6285000" />
     </task>
     <task id="LOCAL-00001" summary="Original">
       <created>1567972661495</created>
@@ -194,7 +190,14 @@
       <option name="project" value="LOCAL" />
       <updated>1569355040099</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Lab 13  UI design Complete!">
+      <created>1569386119643</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1569386119643</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TodoView">
@@ -255,7 +258,8 @@
     <MESSAGE value="Original" />
     <MESSAGE value="Suceess 16点39分" />
     <MESSAGE value="Random World Generate Success!" />
-    <option name="LAST_COMMIT_MESSAGE" value="Random World Generate Success!" />
+    <MESSAGE value="Lab 13  UI design Complete!" />
+    <option name="LAST_COMMIT_MESSAGE" value="Lab 13  UI design Complete!" />
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />

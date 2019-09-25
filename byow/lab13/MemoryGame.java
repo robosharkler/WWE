@@ -18,6 +18,7 @@ public class MemoryGame {
     private static final String[] ENCOURAGEMENT = {"You can do this!", "I believe in you!",
                                                    "You got this!", "You're a star!", "Go Bears!",
                                                    "Too easy for you!", "Wow, so impressive!"};
+    private int roundNum=1;
 
     public static void main(String[] args) throws InterruptedException {
         if (args.length < 1) {
@@ -68,6 +69,9 @@ public class MemoryGame {
         StdDraw.setFont(font);
         StdDraw.clear(Color.BLACK);
         StdDraw.setPenColor(Color.white);
+        StdDraw.text(5,height-2,"Round:"+roundNum);
+        String encourage=ENCOURAGEMENT[rand.nextInt(ENCOURAGEMENT.length)];
+        StdDraw.text(width-encourage.length()/2,height-2,encourage);
         StdDraw.text(width/2,height/2,s);
         StdDraw.show();
     }
@@ -102,7 +106,6 @@ public class MemoryGame {
         //TODO: Establish Engine loop
 
         boolean userContinue=true;
-        int roundNum=1;
         while(userContinue){
             String startInfo = "Round: ";
             drawFrame(startInfo+roundNum);
