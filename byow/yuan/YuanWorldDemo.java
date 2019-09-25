@@ -10,7 +10,7 @@ import java.util.Random;
 public class YuanWorldDemo {
     private static final int WIDTH = 40;
     private static final int HEIGHT = 80;
-    private static final long SEED = 4412;
+    private static final long SEED = 23123;
     private static final Random RANDOM = new Random(SEED);
 
     public static void main(String[] args) {

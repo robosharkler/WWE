@@ -1,7 +1,7 @@
 package byow.TileEngine;
 
 import byow.refer.StdDraw;
-
+import byow.TileEngine.*;
 import java.awt.Color;
 import java.awt.Font;
 
