@@ -2,8 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4dbbdd25-310d-4b4e-be8d-b7e32250b22c" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/byow/yuan/Interactive.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tmp/saveWorld.ser" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/byow/lab13/MemoryGame.java" beforeDir="false" afterPath="$PROJECT_DIR$/byow/lab13/MemoryGame.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/byow/TileEngine/TERenderer.java" beforeDir="false" afterPath="$PROJECT_DIR$/byow/TileEngine/TERenderer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/byow/TileEngine/TETile.java" beforeDir="false" afterPath="$PROJECT_DIR$/byow/TileEngine/TETile.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/byow/yuan/YuanWorldDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/byow/yuan/YuanWorldDemo.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -46,11 +50,12 @@
     <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/byow/TileEngine" />
-    <property name="last_opened_file_path" value="C:/Program Files/Git/bin/git.exe" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -73,13 +78,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.MemoryGame">
-    <configuration name="BoringWorldDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="byow.lab12.BoringWorldDemo" />
+  <component name="RunManager" selected="Application.Interactive">
+    <configuration name="Interactive" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="byow.yuan.Interactive" />
       <module name="proj3" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="byow.lab12.*" />
+          <option name="PATTERN" value="byow.yuan.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -141,19 +146,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.BoringWorldDemo" />
       <item itemvalue="Application.MemoryGame" />
       <item itemvalue="Application.RandomWorldDemo" />
       <item itemvalue="Application.YuanWorldDemo" />
       <item itemvalue="Application.YuanWorldDemo (1)" />
+      <item itemvalue="Application.Interactive" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Interactive" />
         <item itemvalue="Application.MemoryGame" />
         <item itemvalue="Application.YuanWorldDemo" />
         <item itemvalue="Application.YuanWorldDemo (1)" />
         <item itemvalue="Application.RandomWorldDemo" />
-        <item itemvalue="Application.BoringWorldDemo" />
       </list>
     </recent_temporary>
   </component>
@@ -167,7 +172,10 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1567970692261</updated>
-      <workItem from="1569380489642" duration="6285000" />
+      <workItem from="1569380489642" duration="6330000" />
+      <workItem from="1569424774963" duration="6792000" />
+      <workItem from="1569448805071" duration="131000" />
+      <workItem from="1569464615355" duration="3610000" />
     </task>
     <task id="LOCAL-00001" summary="Original">
       <created>1567972661495</created>
@@ -197,7 +205,14 @@
       <option name="project" value="LOCAL" />
       <updated>1569386119643</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Lab 13  Complete!">
+      <created>1569386806433</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1569386806433</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TodoView">
@@ -251,6 +266,7 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <ignored-roots>
       <path value="$PROJECT_DIR$/.." />
       <path value="$PROJECT_DIR$" />
@@ -259,7 +275,24 @@
     <MESSAGE value="Suceess 16点39分" />
     <MESSAGE value="Random World Generate Success!" />
     <MESSAGE value="Lab 13  UI design Complete!" />
-    <option name="LAST_COMMIT_MESSAGE" value="Lab 13  UI design Complete!" />
+    <MESSAGE value="Lab 13  Complete!" />
+    <option name="LAST_COMMIT_MESSAGE" value="Lab 13  Complete!" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/byow/TileEngine/Tileset.java</url>
+          <line>24</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/byow/TileEngine/Tileset.java</url>
+          <line>27</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />

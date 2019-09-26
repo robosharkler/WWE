@@ -21,12 +21,12 @@ import byow.Core.RandomUtils;
  * to make your TETile class mutable, if you prefer.
  */
 
-public class TETile {
-    private final char character; // Do not rename character or the autograder will break.
-    private final Color textColor;
-    private final Color backgroundColor;
-    private final String description;
-    private final String filepath;
+public class TETile implements java.io.Serializable {
+    private  char character; // Do not rename character or the autograder will break.
+    private  Color textColor;
+    private  Color backgroundColor;
+    private  String description;
+    private  String filepath;
 
     /**
      * Full constructor for TETile objects.
